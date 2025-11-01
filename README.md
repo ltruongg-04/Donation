@@ -28,10 +28,3 @@
 Xây dựng một nền tảng **quyên góp minh bạch và phi tập trung**, nơi mọi giao dịch được ghi nhận công khai trên blockchain, giúp cộng đồng tin tưởng và dễ dàng đóng góp.
 
 ---
-
-## 🛠️ Cách chạy dự án
-```bash
-# Cài đặt dependencies
-npm install
-
-# Chạy ứng dụ
