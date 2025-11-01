@@ -1,0 +1,119 @@
+/* Reset & font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0d1117, #000);
+  color: #e6edf3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px 60px;
+  box-shadow: 0 8px 30px rgba(0, 255, 200, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 40px rgba(0, 255, 200, 0.25);
+}
+
+/* Heading */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #00ffa3, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.account {
+  margin: 15px 0 30px;
+  font-size: 1.1rem;
+  color: #9be7ff;
+}
+
+/* Input & Buttons */
+.donate-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0 30px;
+}
+
+input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #00ffa3;
+  background: transparent;
+  color: #fff;
+  width: 220px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #00d4ff;
+  box-shadow: 0 0 8px #00ffa3;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.connect {
+  background: linear-gradient(90deg, #00ffa3, #00d4ff);
+}
+
+.connect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 255, 200, 0.4);
+}
+
+.donate {
+  background: linear-gradient(90deg, #ffd700, #ff8c00);
+}
+
+.donate:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 200, 0, 0.4);
+}
+
+/* Result */
+h2 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+h2 span {
+  color: #00ffa3;
+  font-weight: bold;
+}
